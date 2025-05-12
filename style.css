@@ -1,0 +1,40 @@
+body {
+  font: 1em/1.6 Verdana, sans-serif;
+  color: #4A4A4A;
+  background: #f0f8ff;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+.header, .footer, .navbar {
+  background: #4682B4;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.navbar ul { display: flex; list-style: none; padding: 0; }
+.navbar a { color: #000000; text-decoration: none; }
+.navbar a:hover { text-decoration: underline; }
+
+.two-columns { display: flex; }
+.left-column, .right-column { padding: 10px; }
+.left-column { width: 30%; background: #e8ecef; }
+.right-column { width: 70%; background: #fff; }
+
+section h2, .job h3, .education h3 { color: #4682B4; }
+
+.profile-photo img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #4682B4;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+a { color: #000000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.download-btn, .back-btn { padding: 5px; background: #4682B4; color: #fff; }
+
+.titulo-img { display: block; max-width: 100%; margin: 5px auto; }
